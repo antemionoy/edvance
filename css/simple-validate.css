@@ -1,0 +1,35 @@
+input.error,
+textarea.error
+{
+    border-bottom: 1px solid red !important;
+    color: red !important;
+}
+
+label.error
+{
+    color: red !important;
+}
+
+input.error::-webkit-input-placeholder,
+textarea.error::-webkit-input-placeholder
+{
+   color: rgb(255, 120, 124);
+}
+
+input.error:-moz-placeholder,
+textarea.error:-moz-placeholder
+{ /* Firefox 18- */
+   color: rgb(255, 120, 124);  
+}
+
+input.error::-moz-placeholder,
+textarea.error::-moz-placeholder
+{  /* Firefox 19+ */
+   color: rgb(255, 120, 124);  
+}
+
+input.error:-ms-input-placeholder,
+textarea.error:-ms-input-placeholder
+{  
+   color: rgb(255, 120, 124);  
+}

@@ -1,0 +1,574 @@
+@import "http://webfonts.ru/import/raleway.css";
+
+@font-face {
+    font-family: 'Circe';
+    src: url('../fonts/Circe-Regular.eot');
+    src: url('../fonts/Circe-Regular.eot?') format('embedded-opentype'), url('../fonts/Circe-Regular.woff') format('woff'), url('../fonts/Circe-Regular.ttf') format('truetype'), url('../fonts/Circe-Regular.svg') format('svg');
+}
+
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.this-portfolio {
+    padding: 0;
+    margin: 0;
+    font-family: 'Circe';
+    min-width: 1180px;
+    width: 100%;
+}
+
+.brusnika-portfolio {
+    background-color: #fff;
+    line-height: 26.94px;
+    color: #221e1f;
+    font-family: 'Circe', sans-serif;
+}
+
+
+.brusnika-portfolio .container {
+    width: 1180px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.brusnika-portfolio .promo-block {
+    background-image: url(../pict/promo-img.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 790px;
+}
+
+.brusnika-portfolio .text-block {
+    background-color: #fff;
+    height: 200px;
+    width: 380px;
+    text-align: center;
+    margin-left: 380px;
+    -webkit-animation-duration: .3s;
+    -o-animation-duration: .3s;
+    -moz-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    -moz-animation-delay: 1s;
+    animation-delay: 2s;
+}
+
+.brusnika-portfolio .sub-title--text {
+    font-size: 30px;
+    color: #221e1f;
+}
+
+.brusnika-portfolio .promo-phone {
+    margin-left: 75px;
+}
+
+.brusnika-portfolio .promo-block--flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1180px;
+    height: 790px;
+}
+
+.brusnika-portfolio .promo-title {
+    font-size: 36px;
+    padding-top: 45px;
+}
+
+.brusnika-portfolio .quote-block {
+    border-bottom: 1px solid #959595;
+}
+
+.brusnika-portfolio .quote-block p {
+    margin: 0;
+}
+
+.brusnika-portfolio .quote {
+    background-color: #f5f5f5;
+    padding: 25px 100px 20px;
+    line-height: 30px;
+    margin-top: 35px;
+    position: relative;
+}
+
+.brusnika-portfolio .quote:before {
+    content: "";
+    background-image: url("../img/spritesheet.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 31px;
+    height: 24px;
+    background-position: -234px -15px;
+    left: 30px;
+    top: 40px;
+}
+
+.brusnika-portfolio .quote:after {
+    content: "";
+    background-image: url("../img/spritesheet.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 31px;
+    height: 24px;
+    background-position: -234px -69px;
+    right: 30px;
+    top: 40px;
+}
+
+.brusnika-portfolio .quote-span {
+    font-weight: bold;
+}
+
+.brusnika-portfolio .quote-text--two {
+    line-height: 24px;
+    padding: 40px 50px 40px 20px;
+}
+
+.brusnika-portfolio .prototip-title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+.brusnika-portfolio .prototip-text {
+    line-height: 24px;
+    padding: 30px 30px 70px 20px;
+    margin: 0;
+}
+
+.brusnika-portfolio .prototip-block--flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: -moz-wrap;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 1180px;
+    display: block;
+}
+
+.brusnika-portfolio .nexus-prototip {
+    padding-left: 30px;
+    position: relative;
+    top: -180px;
+}
+
+.brusnika-portfolio .catalog-prototip {
+    padding-left: 40px;
+}
+
+.brusnika-portfolio .catalog_filter {
+    padding-left: 20px;
+    position: relative;
+    top: -130px;
+}
+
+.brusnika-portfolio .card {
+    padding-left: 20px;
+    position: relative;
+    top: -280px;
+
+}
+
+.brusnika-portfolio .card-info {
+    position: relative;
+    top: 65px;
+    right: 182px;
+}
+
+.brusnika-portfolio .basket {
+    position: relative;
+    left: 903px;
+    top: -210px;
+}
+
+.brusnika-portfolio .delivery {
+    position: relative;
+    top: -620px;
+    left: 720px;
+}
+
+.brusnika-portfolio .prototip-block {
+    border-bottom: 1px solid #959595;
+}
+
+.brusnika-portfolio .design {
+    padding-top: 70px;
+}
+
+.brusnika-portfolio .design-box {
+    margin-bottom: -500px;
+    min-height: 1500px;
+}
+
+.brusnika-portfolio .design-title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.brusnika-portfolio .design-text {
+    line-height: 24px;
+    padding: 40px 80px 70px 20px;
+    margin: 0;
+}
+
+.brusnika-portfolio .design-block--flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: -moz-wrap;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 1180px;
+    display: block;
+}
+
+.brusnika-portfolio .nexus-design {
+    padding-left: 60px;
+    position: relative;
+    top: -430px;
+}
+
+.brusnika-portfolio .main_page-design {
+    padding-left: 80px;
+    -webkit-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.brusnika-portfolio .card-design {
+    padding-left: 20px;
+    -webkit-animation-delay: 3s;
+    -o-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    animation-delay: 3s;
+    position: relative;
+    top: -545px;
+}
+
+.brusnika-portfolio .card-design_info {
+    position: relative;
+    top: -175px;
+    right: 182px;
+    -webkit-animation-delay: 3.5s;
+    -o-animation-delay: 3.5s;
+    -moz-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+}
+
+.brusnika-portfolio .basket-design {
+    position: relative;
+    right: 160px;
+    -webkit-animation-delay: 4s;
+    -o-animation-delay: 4s;
+    -moz-animation-delay: 4s;
+    animation-delay: 4s;
+    top: -410px;
+}
+
+.brusnika-portfolio .delivery-design {
+    position: relative;
+    left: 730px;
+    top: -600px;
+    -webkit-animation-delay: 4.5s;
+    -o-animation-delay: 4.5s;
+    -moz-animation-delay: 4.5s;
+    animation-delay: 4.5s;
+}
+
+.brusnika-portfolio .design-text-img {
+    position: relative;
+    left: 740px;
+    top: -870px;
+    -webkit-animation-delay: 5s;
+    -o-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    animation-delay: 5s;
+}
+
+.brusnika-portfolio .bue-box {
+    background-color: #f5f5f5;
+    padding-bottom: 140px;
+}
+
+.brusnika-portfolio .buy-title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 55px 0 60px;
+    color: #000;
+    font-weight: 700;
+    margin: 0;
+}
+
+.brusnika-portfolio .bue-box--flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 1180px;
+}
+
+.brusnika-portfolio .accept-buy {
+    padding-left: 115px;
+}
+
+.brusnika-portfolio .mini-card--buy {
+    position: relative;
+    z-index: 2;
+    top: -40px;
+    right: 60px;
+}
+
+.brusnika-portfolio .card-info--buy {
+    position: relative;
+    z-index: 2;
+    top: -410px;
+    left: 90px;
+}
+
+.brusnika-portfolio .payment-buy {
+    position: relative;
+    left: 75px;
+}
+
+.brusnika-portfolio .delivery-buy {
+    position: relative;
+    left: 35px;
+}
+
+.brusnika-portfolio .picture-box {
+    background-color: #fff;
+    background-image: url(../pict/picture-box.png);
+    height: 530px;
+}
+
+.brusnika-portfolio .picture-box--flex {
+    padding-top: 70px;
+    padding-left: 80px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 1180px;
+}
+
+.brusnika-portfolio .footer-block {
+    background-image: url(../pict/footer-block.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.brusnika-portfolio .footer-block .container{
+    /*padding-bottom:80px;*/
+}
+
+.brusnika-portfolio .footer-block--text {
+    color: #fff;
+    position: relative;
+    display: block;
+    font-size: 23px;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.brusnika-portfolio .footer-block--text:before {
+    content: "";
+    background-image: url("../img/spritesheet.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 189px;
+    height: 125px;
+    background-position: -15px -15px;
+    top: -60px;
+    left: 370px;
+}
+
+.brusnika-portfolio .footer-block--flex {
+    padding: 70px 255px 0px;
+}
+
+/*@media (min-width: 320px) and (max-width: 1001px){
+        body #top .center{
+            height: 100px;
+        }
+        body #top .menu-btn{
+            margin-top: 20px;
+            font-size: 35px;
+              
+        }
+    .brusnika-portfolio .picture-box--flex{
+        width: auto;
+    }
+    .picture-box--img{
+        width: 90%;
+    }
+
+    .brusnika-portfolio .promo-block--flex{
+        width: auto;
+    }
+
+    .brusnika-portfolio .prototip-block--flex{
+        width: auto;
+    }
+
+    .brusnika-portfolio .delivery{
+        top: -90px;
+        left: 130px;
+    }
+
+    .brusnika-portfolio .basket{
+        top: -231px;
+        left: 530px;
+    }
+
+    .brusnika-portfolio .design-block--flex{
+        width: auto;
+    }
+
+    .brusnika-portfolio .delivery-design{
+        top: 0px;
+        left: 580px;
+    }
+
+    .brusnika-portfolio .design-box{
+        margin-bottom: auto;
+    }
+
+    .brusnika-portfolio .design-text-img{
+        left: 380px;
+        top: -875px;
+    }
+
+    .brusnika-portfolio .bue-box--flex{
+        width: auto;
+    }
+
+    .bue-box--img {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .brusnika-portfolio .basket-design{
+        left: 530px;
+        right: auto;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px){
+    #top-fixed{
+        height:  90px; 
+    }
+    .brusnika-portfolio .container{
+        width: 100%;
+    }
+    .brusnika-portfolio .picture-box--flex{
+        width: auto;
+    }
+    .picture-box--img{
+        width: 90%;
+    }
+
+    .brusnika-portfolio .promo-block--flex{
+        width: auto;
+    }
+
+    .brusnika-portfolio .prototip-block--flex{
+        width: auto;
+    }
+
+    .brusnika-portfolio .delivery{
+        top: 0px;
+        left: 108px;
+    }
+
+    .brusnika-portfolio .basket{
+        top: 0px;
+        left: 500px;
+    }
+
+
+    .brusnika-portfolio .design-block--flex{
+        width: auto;
+    }
+
+    .brusnika-portfolio .delivery-design{
+        top: -172px;
+        left: 480px;
+    }
+
+    .brusnika-portfolio .design-box{
+        margin-bottom: auto;
+    }
+
+    .brusnika-portfolio .design-text-img{
+        left: 487px;
+        top: -875px;
+    }
+
+    .brusnika-portfolio .main_page-design{
+        padding-left: 50px;  
+    }
+
+    .brusnika-portfolio .bue-box--flex{
+        width: auto;
+    }
+
+    .bue-box--img {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .brusnika-portfolio .basket-design{
+        left: 20px;
+        right: 0px;
+        top: 0px;
+    }
+}
+
+
+
+
+
+*/
+

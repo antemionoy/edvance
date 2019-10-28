@@ -1,0 +1,30 @@
+:focus { outline: 0; }
+article, aside, footer, header, nav, section { display: block; }
+a, abbr, address, article, aside, b, blockquote, body, caption, cite,
+code, dd, del, dfn, div, dl, dt, em, fieldset, footer,
+form, h1, h2, h3, h4, h5, h6, header, html, i,
+iframe, img, ins, kbd, label, legend, li, mark, menu, nav,
+object, ol, p, pre, q, samp, section, small, span, strong,
+sub, sup, table, tbody, td, th, thead, tr, ul, var {
+	margin: 0; border: 0; outline: 0; padding: 0;
+	background: transparent;
+	font-size: 100%; vertical-align: baseline;
+}
+body { line-height: 1; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; content: none; }
+del { text-decoration: line-through; }
+ins { text-decoration: none; }
+ul, ol { list-style: none;}
+table { border-collapse: collapse; border-spacing: 0; }
+abbr { cursor: help; }
+label,
+input[type="button"],
+input[type="checkbox"],
+input[type="img"],
+input[type="radio"],
+input[type="reset"],
+input[type="submit"],
+select {
+	cursor: pointer;
+}

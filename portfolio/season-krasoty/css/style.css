@@ -1,0 +1,442 @@
+.s-1 {
+    width: 8.33%;
+}
+
+.s-2 {
+    width: 16.66%;
+}
+
+.s-3 {
+    width: 25%;
+}
+
+.s-4 {
+    width: 33.33%;
+}
+
+.s-5 {
+    width: 41.66%;
+}
+
+.s-6 {
+    width: 50%;
+}
+
+.s-7 {
+    width: 58.33%;
+}
+
+.s-8 {
+    width: 66.66%;
+}
+
+.s-9 {
+    width: 75%;
+}
+
+.s-10 {
+    width: 83.11%;
+}
+
+.s-11 {
+    width: 91.66%;
+}
+
+.s-12 {
+    width: 100%;
+}
+
+.s-20 {
+    width: 20%;
+}
+
+.this-portfolio {
+    padding: 0;
+    margin: 0;
+    min-width: 1180px;
+}
+
+.season_kr-portfolio {
+    background-color: #fff;
+    color: #fff;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.season_kr-portfolio .container {
+    width: 1180px;
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+.season_kr-portfolio .top-block {
+    background-image: url(../pict/promo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.season_kr-portfolio .top-block--flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 1180px;
+    height: 750px;
+    max-width: 100%;
+}
+
+.season_kr-portfolio .logo-season {
+    margin-top: 275px;
+}
+
+.season_kr-portfolio .top-block--text {
+    padding-top: 75px;
+    font-size: 24px;
+    line-height: 27px;
+    color: #000;
+}
+
+.season_kr-portfolio .top-block--site {
+    padding-top: 40px;
+    font-size: 24px;
+    line-height: 27px;
+    color: #dd137b;
+    -o-transition: .6s;
+    -ms-transition: .6s;
+    -moz-transition: .6s;
+    -webkit-transition: .6s;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+.season_kr-portfolio .top-block--site:hover {
+    color: #444444;
+    opacity: .8;
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.season_kr-portfolio .task-block {
+    margin-top: 90px;
+    height: 340px;
+    background-color: #85666c;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0px 0px 7.28px 0.72px rgba(0, 0, 0, 0.3);
+}
+
+.season_kr-portfolio .task-block h2,
+p {
+    margin: 0;
+}
+
+.season_kr-portfolio .task-title {
+    font-size: 30px;
+    line-height: 26.94px;
+    padding: 65px 0 35px 20px;
+    font-weight: 300;
+}
+
+.season_kr-portfolio .task-text--one {
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+.season_kr-portfolio .task-text--two {
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.season_kr-portfolio .main-page--title {
+    color: #444444;
+    font-size: 36px;
+    line-height: 26.94px;
+    margin-top: 70px;
+    font-weight: 300;
+}
+
+.season_kr-portfolio .main-page--img {
+    background-image: url(../pict/main-page--img.png);
+    background-color: #f5f5f5;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 950px;
+    width: 100%;
+    margin-top: 50px;
+    box-shadow: 0px 0px 7.28px 0.72px rgba(0, 0, 0, 0.3);
+    font-size: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.season_kr-portfolio .mobile-block {
+    background-image: url(../pict/Rectangle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1135px;
+    position: relative;
+    top: -200px;
+    z-index: 2;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.season_kr-portfolio .mobile-block--text {
+    color: #444444;
+    position: relative;
+    top: 280px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.season_kr-portfolio .mobile-block-flex {
+    margin-top: 20px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 1180px;
+    height: 1135px;
+}
+
+.season_kr-portfolio .phone-left--text {
+    position: relative;
+    top: 265px;
+    right: 140px;
+    color: #444444;
+    font-size: 14px;
+    line-height: 26.94px;
+}
+
+.season_kr-portfolio .phone-right--text {
+    position: relative;
+    top: 265px;
+    right: 130px;
+    color: #444444;
+    font-size: 14px;
+    line-height: 26.94px;
+}
+
+.season_kr-portfolio .phone-left--text,
+.phone-right--text {
+    -webkit-animation-duration: .3s;
+    -o-animation-duration: .3s;
+    -moz-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.season_kr-portfolio .catalog-title {
+    margin-top: -160px;
+    font-size: 36px;
+    line-height: 26.94px;
+    color: #444444;
+    font-weight: 300;
+}
+
+.season_kr-portfolio .catalog-text {
+    color: #444444;
+    font-size: 23.92px;
+    line-height: 26.94px;
+    font-weight: 700;
+    padding: 60px 0 35px;
+}
+
+.season_kr-portfolio .catalog-img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    border: none;
+}
+
+.season_kr-portfolio .catalog-phone {
+    background-image: url(../pict/catalog-phone.png);
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+    width: 240px;
+    height: 480px;
+    top: -680px;
+    left: 880px;
+    font-size: 0;
+}
+
+.season_kr-portfolio .filter-title {
+    margin-top: -410px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    line-height: 26.94px;
+    color: #444444;
+    font-weight: 300;
+}
+
+.season_kr-portfolio .filter-phone--left {
+    background-image: url(../pict/filter-phone--left.png);
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+    width: 240px;
+    height: 480px;
+    font-size: 0;
+    top: -680px;
+    left: 560px;
+}
+
+.season_kr-portfolio .filter-phone--left:before {
+    content: "";
+    background-image: url(../pict/arrow.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    position: absolute;
+    width: 400px;
+    height: 125px;
+    right: 250px;
+    top: 130px;
+}
+
+.season_kr-portfolio .filter-phone--right {
+    background-image: url(../pict/filter-phone--right.png);
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+    width: 240px;
+    height: 480px;
+    top: -1160px;
+    left: 880px;
+    text-align: center;
+    -webkit-animation-duration: .3s;
+    -o-animation-duration: .3s;
+    -moz-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.season_kr-portfolio .filter-phone--text {
+    position: relative;
+    top: 500px;
+    color: #444444;
+    font-size: 14px;
+    line-height: 26.94px;
+    font-weight: 700;
+}
+
+.season_kr-portfolio .card {
+    background-image: url(../pict/Rectangle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1135px;
+    position: relative;
+    top: -1080px;
+    z-index: 2;
+}
+
+.season_kr-portfolio .card-title {
+    color: #444444;
+    font-size: 36px;
+    line-height: 26.94px;
+    font-weight: 300;
+    position: relative;
+    top: 300px;
+}
+
+.season_kr-portfolio .card-img {
+    margin-top: 360px;
+}
+
+.filter-img{
+    max-width: 100%;
+}
+
+.season_kr-portfolio .card-phone {
+    position: relative;
+    top: -480px;
+    left: 450px;
+    /*left: 295px;*/
+    -webkit-animation-duration: .3s;
+    -o-animation-duration: .3s;
+    -moz-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.season_kr-portfolio .bottom-block {
+    margin-top: -1380px;
+    background-color: #85666c;
+    height: 1140px;
+}
+
+.season_kr-portfolio .bottom-block--title {
+    padding-top: 230px;
+    font-size: 36px;
+    line-height: 26.94px;
+    font-weight: 300;
+    position: relative;
+}
+
+.season_kr-portfolio .bottom-block--title:before {
+    content: "";
+    width: 2000px;
+    height: 206px;
+    position: absolute;
+    background-color: #fff;
+    left: -2360px;
+    top: -9px;
+}
+
+.season_kr-portfolio .bottom-img {
+    padding-top: 45px;
+    max-width: 100%;
+}
+
+
+@media(min-width:320px) and ( max-width:1180px){
+    body .season_kr-portfolio  .mobile-block-flex{
+        width: 100%;
+    }
+    .mobile-block{
+        width: 100%;
+    }
+/*    body .season_kr-portfolio .top-block--flex{
+        width: 100%;
+
+    }*/
+}
